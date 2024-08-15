@@ -1,0 +1,42 @@
+spring:
+  application:
+    name: quote-service
+  cache:
+    type: redis
+  flyway:
+    enabled: true
+    baseline-on-migrate: true
+    locations: classpath:db/migration
+  data:
+    redis:
+      host: ${REDIS_HOST:localhost}
+      port: ${REDIS_PORT:6379}
+  datasource:
+    url: ${DATABASE_URL:jdbc:postgresql://localhost:5432/postgres}
+    username: ${DATABASE_USERNAME:postgres}
+    password: ${DATABASE_PASSWORD:password}
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    properties:
+      hibernate:
+        globally_quoted_identifiers: true
+    hibernate:
+      ddl-auto: none
+
+logging:
+  level:
+    org.springframework.cache: ${LOGGING_LEVEL:trace}
+
+
+vk:
+  uri: https://api.vk.com
+  sources:
+    initGroup:
+      version: ${INIT_GROUP_API_VERSION:5.199}
+      access-token: ${INIT_GROUP_ACCESS_TOKEN:token}
+      secret: ${INIT_GROUP_SECRET:secret}
+
+server:
+  servlet:
+    context-path: /api/v1
+  port: 8080

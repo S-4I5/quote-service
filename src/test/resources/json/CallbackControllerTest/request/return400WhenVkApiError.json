@@ -1,0 +1,40 @@
+{
+  "group_id": 226935813,
+  "type": "message_new",
+  "event_id": "d59e70e01b52489a3d332acee83ecb0f35203b0c",
+  "v": "5.199",
+  "object": {
+    "message": {
+      "date": 1723652353,
+      "from_id": 84682488,
+      "id": 237,
+      "out": 0,
+      "version": 10000570,
+      "attachments": [],
+      "conversation_message_id": 228,
+      "fwd_messages": [],
+      "important": false,
+      "is_hidden": false,
+      "peer_id": 84682488,
+      "random_id": 0,
+      "text": "jj"
+    },
+    "client_info": {
+      "button_actions": [
+        "text",
+        "vkpay",
+        "open_app",
+        "location",
+        "open_link",
+        "callback",
+        "intent_subscribe",
+        "intent_unsubscribe"
+      ],
+      "keyboard": true,
+      "inline_keyboard": true,
+      "carousel": true,
+      "lang_id": 0
+    }
+  },
+  "secret": "secret"
+}
