@@ -13,6 +13,8 @@ services:
       - DATABASE_URL=jdbc:postgresql://postgres:5432/postgres
       - DATABASE_USERNAME=postgres
       - DATABASE_PASSWORD=password
+      - INIT_GROUP_ACCESS_TOKEN=vk1.a.j-0jf0iJkCXu6F_ctjud9KGUImuAcU24-8Ds5iLwL18yi-Wn44feK7ue1DvKQ75F84Vv6BDeFMOrLPSWbibGx75v9cgtlX6GE7hVBk1j_rWh3TmEf5z0vYr1pRSsMW4am9OZ3JDNYweENy4OsIukmTbo1GQEw5ZmckCvcb4yZAVpjCb08GbpJuIpN-49PmlNeK4HkXxVXa19pGysn-Lj5w
+      - INIT_GROUP_SECRET=awfafafwafaf
     restart: unless-stopped
     ports:
       - "8080:8080"

@@ -1,4 +1,4 @@
-package xyz.s4i5.quoteservice.service.message;
+package xyz.s4i5.quoteservice.service;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -7,7 +7,7 @@ import xyz.s4i5.quoteservice.client.VkMessageApiClient;
 import xyz.s4i5.quoteservice.exceptions.VkApiException;
 import xyz.s4i5.quoteservice.model.entity.VkUser;
 import xyz.s4i5.quoteservice.model.query.client.message.SendMessageQuery;
-import xyz.s4i5.quoteservice.service.SourceService;
+import xyz.s4i5.quoteservice.util.MessageTextCustomizer;
 
 import java.util.Random;
 

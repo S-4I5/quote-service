@@ -12,7 +12,6 @@ import xyz.s4i5.quoteservice.model.dto.CallbackDto;
 import xyz.s4i5.quoteservice.model.entity.ProcessedMessage;
 import xyz.s4i5.quoteservice.model.entity.VkUser;
 import xyz.s4i5.quoteservice.repository.ProcessedMessageRepository;
-import xyz.s4i5.quoteservice.service.message.VkMessageService;
 
 @Slf4j
 @Service

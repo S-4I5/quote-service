@@ -1,4 +1,4 @@
-package xyz.s4i5.quoteservice.service.message;
+package xyz.s4i5.quoteservice.util;
 
 import lombok.experimental.UtilityClass;
 import xyz.s4i5.quoteservice.model.entity.VkUser;

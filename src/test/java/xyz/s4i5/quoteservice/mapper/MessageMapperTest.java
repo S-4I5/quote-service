@@ -5,7 +5,6 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import xyz.s4i5.quoteservice.model.query.client.message.SendMessageQuery;
-import xyz.s4i5.quoteservice.service.message.MessageTextCustomizer;
 
 @SpringBootTest(
         classes = {

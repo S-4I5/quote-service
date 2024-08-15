@@ -50,7 +50,7 @@ public class SourceService {
 
         if (info == null) {
             log.error("Failed while looking for info for {}", sourceId);
-            throw new QuoteServiceCoreException("");
+            throw new QuoteServiceCoreException("api.source.info.notFound");
         }
 
         return info;
